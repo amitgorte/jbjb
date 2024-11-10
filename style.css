@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #40531B;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #40531B;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #40531B;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('https://images.unsplash.com/photo-1594117762400-56b2eaf27843');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+/* Content Sections */
+.content {
+    margin: 30px;
+    padding: 20px;
+    background-color: #AFBC88;
+    border-radius: 8px;
+}
+h1{
+    color: white;
+}
+
+h2 {
+    color: #073B3A;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* Images in content */
+.cause-image, .effect-image, .solution-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .content {
+        margin: 15px;
+    }
+
+    .cause-image, .effect-image, .solution-image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
